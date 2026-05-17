@@ -72,12 +72,35 @@ Append-only 决策日志。**永远不要删除条目**，新增在最下面。
 
 ---
 
+### D-13 v1.0 北极星定为 7-Level Autonomy
+**决策**：v0.3 manual MVP（Codex 推荐）是 mechanism 验证 gate；**v1.0 真正终态是 7-level autonomous loop**（Level 0→7 在 6 周内逐级解锁）。
+**理由**：
+- Codex 提的 manual-first 不矛盾 autonomous，它是 sequential
+- 不做 autonomous = 单人产能上限 5-10 vertical/季度
+- 做 autonomous = 100+ vertical 同时 24/7，单 founder 真正杠杆
+- Level 4（自动 landing + 自动 cold email）是最高 ROI 一级，**3-7 天就能 PMF 验证**
+- Level 7（self-improvement）是最危险一级，必须严格 guardrail + human-revertible
+
+详见 `docs/AUTONOMY_VISION.md`。
+
+### D-14 Day 1-4 Gap Discovery dev tools 完成
+**已实施**：
+- HN scrape: 392 quotes (8 queries, 2007-2026)
+- Reddit scrape 失败 (403 Blocked, 2023 API 政策), 跳过
+- Gemini Flash annotate: 392/392 完成，0 错误，**59% (235 条) 真 dev-tool 相关**
+- segment 主导：staff_eng 137 (58%) — ICP 跟现有 personas 高重合
+- categories: framework 44 / collab 19 / build 15 / deploy 14 / api 9 / infra 8 / docs 7 / db 6
+
+下一步：Day 5 personas 反驳器（用 235 真实 cluster）。
+
+---
+
 ## 待决策
 
-- D-13: 启动 Gap Discovery Day 1（选 vertical）— 等用户定 vertical
-- D-14: 是否先发 LAUNCH.md Show HN — 等用户决定先发还是先 Day 1 拿到 cold email 数据
-- D-15: git init + PyPI publish — 等用户 PyPI token / 决定要不要 GitHub
-- D-16: Manual Gap Diligence Service 商业模式 — 等 Day 7-8 cold email 回复率验证后再定
+- D-15: 是否先发 LAUNCH.md Show HN — 等 Day 7-8 cold email 回复数据
+- D-16: git push GitHub — 等仓库公开 readiness
+- D-17: Manual Gap Diligence Service 商业模式 — 等 Day 7-8 cold email 回复率验证
+- D-18: 是否跳到 W1 Level 2 自动化 — 等 Day 5-10 manual MVP gate 结果（2 付费客户）
 
 ---
 
