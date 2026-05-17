@@ -48,16 +48,49 @@ personalab v0.2.0 已 ship 完整框架 + 2 个公开 case study，**核心商�
 
 ---
 
-## 当前阶段：M1 Foundation 进行中
+## 当前阶段：Gap Discovery Day 1-2（dev tools vertical）执行中
 
 按 6-month 路线图（README 里）：
 
 ```
 [已完成] v0.2.0 ship + 2 case study + 三方 audit
-[当前]   M1 — 决定下一步方向
+[当前]   Gap Discovery Day 1-4 — dev tools vertical
+[待定]   Day 5-10 manual MVP 后续
 [待定]   M2 — 公开 release + traction
 [待定]   M3-M6 — 按 traction 决定后续
 ```
+
+---
+
+## Gap Discovery 进展（截至 2026-05-18 03:00 BJT）
+
+| Day | 工作 | 状态 |
+|---|---|---|
+| 1 | 选 vertical = dev tools；写 cold email 3 个 variant；写 HN/Reddit scrape | ✅ |
+| 2 | HN scrape 392 条 quotes（Reddit 403 blocked，跳过用 OAuth）| ✅ |
+| 3 | （并入 Day 2/4，节省时间）| - |
+| 4 | Gemini Flash 标注 — 50 条 sample 验证（44% dev-tool 相关），全 392 条后台跑中 | 🔄 进行中 |
+| 5 | personas 反驳器 | ⏳ |
+| 6 | incumbent teardown | ⏳ |
+| 7-8 | cold email 30 封 | ⏳ |
+| 9 | Top 3 brief | ⏳ |
+| 10 | 公开发布 + 邀请付费客户 | ⏳ |
+
+**关键文件**：
+- `gap_discovery/README.md` — 流程
+- `gap_discovery/verticals/dev_tools/plan.md` — Day 1-10 详细
+- `gap_discovery/verticals/dev_tools/data/raw_quotes.jsonl` — 392 原始 HN
+- `gap_discovery/verticals/dev_tools/data/tagged_quotes.jsonl` — Gemini 标注（50 已 sample / 392 后台中）
+- `gap_discovery/verticals/dev_tools/cold_emails/templates.md` — 3 个 cold email variant + 跟踪 CSV schema
+- `gap_discovery/scripts/scrape_hn.py` + `scrape_reddit.py` + `annotate.py`
+
+**50 条 sample 已得高 sev unmet need**：
+- "GitHub 内容审核透明度"（sev=4，跟 oss_maint persona 顾虑契合）
+- "PHP 标准库现代化"
+- "游戏开发入门门槛"
+- "项目协作平台 contributor matching"
+
+**Reddit scrape 失败原因**：Reddit 2023 API 政策变化，无 OAuth 403 Blocked。决定跳过 Reddit（不投入 OAuth 工作）→ Day 4 LLM 标注后如果数据不够，再补 GitHub Issues 或 Pushshift 历史档案。
 
 ---
 
