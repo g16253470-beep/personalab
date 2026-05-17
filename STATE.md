@@ -72,7 +72,8 @@ personalab v0.2.0 已 ship 完整框架 + 2 个公开 case study，**核心商�
 | 2 | HN scrape **392 条 quotes**（2007-2026 date range）| ✅ |
 | 3 | （并入 Day 2/4）| - |
 | 4 | Gemini Flash 标注 **392/392 完成，0 错误，235 (59%) 真 dev-tool**；segment 主导 staff_eng 137 (58%) | ✅ |
-| 5 | personas 反驳器 — 235 cluster → 12 personas 反对票 | ⏳ NEXT |
+| 5 | personas 反驳器 — **9 defensible / 9 rejected 出炉**，Top 4: C3/C4/C11/C14 | ✅ |
+| 6 | incumbent teardown (C3/C4/C11/C14 各 3-5 incumbent) | ⏳ NEXT |
 | 6 | incumbent teardown | ⏳ |
 | 7-8 | cold email 30 封 | ⏳ |
 | 9 | Top 3 brief | ⏳ |

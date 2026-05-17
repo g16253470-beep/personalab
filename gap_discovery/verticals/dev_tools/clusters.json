@@ -1,0 +1,357 @@
+{
+  "clusters": [
+    {
+      "id": "C1",
+      "name": "Simplify learning, reduce complexity, and mature the ecosystem for programming languages and frameworks.",
+      "description": "Developers struggle with steep learning curves, excessive boilerplate, unclear roles of modern frameworks, lack of mature libraries, and the general bloat and inconsistency in language ecosystems, requiring a simpler and more integrated development experience.",
+      "member_ids": [
+        "hn_9983764",
+        "hn_9981630",
+        "hn_9943144",
+        "hn_9940859",
+        "hn_7601974",
+        "hn_47014515",
+        "hn_46055597",
+        "hn_9677522",
+        "hn_9577060",
+        "hn_8507385",
+        "hn_8239433",
+        "hn_8001192",
+        "hn_9923247",
+        "hn_9611162",
+        "hn_9814264",
+        "hn_4577578",
+        "hn_5944571",
+        "hn_44620951"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "framework",
+      "estimated_severity_mean": 3.38
+    },
+    {
+      "id": "C2",
+      "name": "Ensure robust, secure, and easily manageable deployment, packaging, and underlying infrastructure systems.",
+      "description": "Developers and SREs face issues with inconsistent packaging, complex installation, lack of live patching, single points of failure, secure containerization, and the difficulty of managing diverse infrastructure, demanding more reliable and automated solutions.",
+      "member_ids": [
+        "hn_9788598",
+        "hn_9721714",
+        "hn_46031103",
+        "hn_46020312",
+        "hn_9991727",
+        "hn_44498785",
+        "hn_9877235",
+        "hn_9615287",
+        "hn_9330535",
+        "hn_9208681",
+        "hn_9208094",
+        "hn_6693801",
+        "hn_6573524",
+        "hn_6113469",
+        "hn_48089067",
+        "hn_47948951",
+        "hn_9964228",
+        "hn_9054284",
+        "hn_8012683",
+        "hn_8321467",
+        "hn_9465523",
+        "hn_45662582",
+        "hn_642162",
+        "hn_998361",
+        "hn_9813913"
+      ],
+      "dominant_segment": "sre",
+      "dominant_category": "deploy",
+      "estimated_severity_mean": 3.32
+    },
+    {
+      "id": "C3",
+      "name": "Improve tools for team collaboration, code review, contribution management, and automate project processes to enhance efficiency.",
+      "description": "Teams struggle with recruiting skilled contributors, asking clarifying questions in code reviews, managing project states, fragmented communication tools, and the manual burden of updating project metrics, indicating a need for more integrated and intelligent collaboration tools.",
+      "member_ids": [
+        "hn_9853177",
+        "hn_46731645",
+        "hn_9679052",
+        "hn_9678175",
+        "hn_9491130",
+        "hn_8416030",
+        "hn_47408374",
+        "hn_47283560",
+        "hn_44735212",
+        "hn_8961466",
+        "hn_8962410",
+        "hn_8961906",
+        "hn_6015310",
+        "hn_9339010",
+        "hn_47568619",
+        "hn_4542743",
+        "hn_8932068",
+        "hn_9069591",
+        "hn_899142",
+        "hn_9824868"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "collab",
+      "estimated_severity_mean": 3.1
+    },
+    {
+      "id": "C4",
+      "name": "Develop AI/LLM tools that provide precise, context-aware assistance, manage 'system memory,' and integrate reliably without errors.",
+      "description": "Developers face challenges with AI coding agents lacking precision, LLMs struggling with context structuring, generating false positives in security scans, needing to track model instructions, and the general lack of 'continuity' or 'memory' in AI for large-scale production systems.",
+      "member_ids": [
+        "hn_47259908",
+        "hn_45111445",
+        "hn_47387716",
+        "hn_45118595",
+        "hn_44464154",
+        "hn_44361368",
+        "hn_48150004",
+        "hn_47838398",
+        "hn_47137995",
+        "hn_45132690",
+        "hn_47863893",
+        "hn_47109291"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "other",
+      "estimated_severity_mean": 3.67
+    },
+    {
+      "id": "C5",
+      "name": "Provide advanced tools for comprehensive testing, pinpointing regressions, detailed profiling, and effective debugging across complex systems.",
+      "description": "The need for better tools to quantify risks (like dangling pointers), reduce test brittleness from mocking, identify semantic versioning breaks, automatically find regression causes, and offer detailed insights into CPU, memory, and GC behavior for efficient debugging.",
+      "member_ids": [
+        "hn_9936650",
+        "hn_40008730",
+        "hn_36691166",
+        "hn_4981353",
+        "hn_7712782",
+        "hn_8299068",
+        "hn_6018473",
+        "hn_9080688",
+        "hn_5470551",
+        "hn_9491625"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "test",
+      "estimated_severity_mean": 3.5
+    },
+    {
+      "id": "C6",
+      "name": "Deliver high-quality, organized, and searchable documentation and learning resources with clear context and terminology.",
+      "description": "Users struggle with unclear tutorial order, missing detailed documentation for niche systems, lack of best practices, difficult-to-find shared documents, and the absence of historical context for legacy code, compounded by a lack of unambiguous terminology.",
+      "member_ids": [
+        "hn_9800812",
+        "hn_9627026",
+        "hn_9290433",
+        "hn_7184938",
+        "hn_6801255",
+        "hn_6097514",
+        "hn_8608303",
+        "hn_9337618",
+        "hn_739451",
+        "hn_9848490"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "docs",
+      "estimated_severity_mean": 2.9
+    },
+    {
+      "id": "C7",
+      "name": "Offer APIs that are user-friendly, reliable, well-documented, and seamlessly integrate with external systems and data sources.",
+      "description": "Developers need better mechanisms for external reshare actions, higher-level abstractions over verbose APIs like MPI, reliable real-time validation services, programmatic access to critical services (e.g., tax returns), and better integration between existing platforms.",
+      "member_ids": [
+        "hn_9953681",
+        "hn_9906214",
+        "hn_47231622",
+        "hn_47769711",
+        "hn_7982835",
+        "hn_44662250",
+        "hn_9420132"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "api",
+      "estimated_severity_mean": 3.43
+    },
+    {
+      "id": "C8",
+      "name": "Provide stable, intuitive operating systems and browsers that maintain core functionality and offer a smooth user experience.",
+      "description": "Users face issues with remote desktop solutions for macOS, unwanted scroll takeovers, OS updates breaking basic functionality (e.g., WiFi, TrackPoint), browser instability, and phone OS releases causing critical bugs, requiring greater reliability and user control.",
+      "member_ids": [
+        "hn_9957865",
+        "hn_9893654",
+        "hn_988379",
+        "hn_911188",
+        "hn_6883903",
+        "hn_44250647",
+        "hn_9687352",
+        "hn_984065"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "other",
+      "estimated_severity_mean": 3.75
+    },
+    {
+      "id": "C9",
+      "name": "Implement robust security, privacy, and access control mechanisms that are granular, transparent, and prevent misuse without performance overhead.",
+      "description": "There's a need for clear privacy statements in web standards, combating unsanctioned tracking, proper CVE checking, preventing the misuse of compliance tools, automating security warnings, securing web applications, and finding modern alternatives to PGP with fine-grained access control.",
+      "member_ids": [
+        "hn_9961635",
+        "hn_9905533",
+        "hn_9445211",
+        "hn_9936169",
+        "hn_8769863",
+        "hn_5870336",
+        "hn_46472038",
+        "hn_45920122",
+        "hn_9915190",
+        "hn_47308430"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "other",
+      "estimated_severity_mean": 3.5
+    },
+    {
+      "id": "C10",
+      "name": "Deliver tools with intuitive interfaces, better CLI ergonomics, and features that enhance productivity and reduce cognitive load.",
+      "description": "Developers desire data analysis interfaces that automatically process data, easier UI element manipulation, more intuitive command-line tools (e.g., Git, OpenSSL), consistent browser rendering, better handling of command output, and a general reduction in cumbersome proprietary software.",
+      "member_ids": [
+        "hn_9940969",
+        "hn_9858259",
+        "hn_9602088",
+        "hn_9854435",
+        "hn_9220773",
+        "hn_47384181",
+        "hn_4580717",
+        "hn_44378763",
+        "hn_45231195",
+        "hn_45117082",
+        "hn_8979401",
+        "hn_5200709",
+        "hn_9915426",
+        "hn_6529655",
+        "hn_7064630",
+        "hn_9967697"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "other",
+      "estimated_severity_mean": 2.88
+    },
+    {
+      "id": "C11",
+      "name": "Ensure seamless, reliable, and private data synchronization across devices and provide robust database management tools.",
+      "description": "Users seek easy data synchronization without cloud storage, better alternatives for large-scale data analytics, improved graphical interfaces for database administration, and better handling of data types like Unicode across systems, including reliable clustering.",
+      "member_ids": [
+        "hn_952055",
+        "hn_7096377",
+        "hn_9473115",
+        "hn_9464444",
+        "hn_9827322",
+        "hn_8231287",
+        "hn_5386854"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "data",
+      "estimated_severity_mean": 3.57
+    },
+    {
+      "id": "C12",
+      "name": "Provide better tooling, libraries, and economic opportunities for niche operating systems, specialized domains, and alternative software ecosystems.",
+      "description": "Developers and users need support for niche operating systems (Minix, Haiku), dynamic tools for interactive educational content, better open-source alternatives to proprietary enterprise software (SAP), and specialized generators (city, window managers) that meet higher feature completeness.",
+      "member_ids": [
+        "hn_9623765",
+        "hn_9594114",
+        "hn_7212763",
+        "hn_9491051",
+        "hn_9385847",
+        "hn_8209310",
+        "hn_47325631",
+        "hn_9429229"
+      ],
+      "dominant_segment": "other",
+      "dominant_category": "other",
+      "estimated_severity_mean": 2.5
+    },
+    {
+      "id": "C13",
+      "name": "Enhance version control tools for clean history, accurate blame, and intuitive command-line interaction with clear moderation policies.",
+      "description": "Developers need version control tools that simplify complex operations, maintain integrity of commit history and blame, provide intuitive visual representation, differentiate similar commands, and operate within clear, objective content moderation policies for open-source repositories.",
+      "member_ids": [
+        "hn_47804659",
+        "hn_9656209",
+        "hn_9968370"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "version_control",
+      "estimated_severity_mean": 3.67
+    },
+    {
+      "id": "C14",
+      "name": "Implement effective monitoring and observability tools that diagnose user-facing issues, correlate data, and track AI model performance.",
+      "description": "SREs and developers require monitoring systems that can quickly correlate data to identify user-facing problems and root causes, moving beyond infrastructure-centric views, and also need to quantitatively track how AI model instructions impact performance and quality.",
+      "member_ids": [
+        "hn_6219614",
+        "hn_47085504",
+        "hn_47838398"
+      ],
+      "dominant_segment": "sre",
+      "dominant_category": "monitor",
+      "estimated_severity_mean": 4.0
+    },
+    {
+      "id": "C15",
+      "name": "Advance web browsers and standards to provide stable, accessible, and high-performance experiences without requiring JavaScript.",
+      "description": "The web platform needs clearer mission statements for standards (e.g., privacy), content accessibility without JavaScript, fixing browser-specific rendering bugs, improving performance of critical operations like image decoding on the main thread, and better handling of secure connections.",
+      "member_ids": [
+        "hn_9951926",
+        "hn_9961635",
+        "hn_9602088",
+        "hn_9011141",
+        "hn_5865827",
+        "hn_987369"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "framework",
+      "estimated_severity_mean": 3.33
+    },
+    {
+      "id": "C16",
+      "name": "Establish clear intellectual property, licensing rules, and transparent policies for digital assets to foster fair use and ecosystem growth.",
+      "description": "Developers need clear guidance to navigate legal obstacles like GPL violations, avoid restrictive licenses that hinder ecosystem growth, and require transparent policies for digital asset acquisition (e.g., domain names) to ensure fairness and prevent market distortion.",
+      "member_ids": [
+        "hn_7758339",
+        "hn_45456510",
+        "hn_9826573"
+      ],
+      "dominant_segment": "oss_maint",
+      "dominant_category": "library",
+      "estimated_severity_mean": 4.33
+    },
+    {
+      "id": "C17",
+      "name": "Address the absence of essential, well-maintained, and performant libraries or core language features required for development.",
+      "description": "Developers encounter significant hurdles due to the lack of fundamental components, such as usable SSL libraries for Haskell, comprehensive GUI libraries for Lisp, or a general absence of widely-used, well-tested libraries that are standard in other languages, hindering development speed and maintainability.",
+      "member_ids": [
+        "hn_9876770",
+        "hn_9876551",
+        "hn_9560334",
+        "hn_9877992"
+      ],
+      "dominant_segment": "staff_eng",
+      "dominant_category": "library",
+      "estimated_severity_mean": 4.0
+    },
+    {
+      "id": "C18",
+      "name": "Simplify the process of evaluating and onboarding new development tools, providing clear demonstrations and value propositions.",
+      "description": "Potential users face difficulty assessing the real value of unproven development tools without upfront payment or sign-up, and need better demo boards with pre-populated data and clear explanations to understand product benefits quickly and efficiently.",
+      "member_ids": [
+        "hn_942992",
+        "hn_9678175",
+        "hn_9679052"
+      ],
+      "dominant_segment": "indie_hacker",
+      "dominant_category": "other",
+      "estimated_severity_mean": 2.0
+    }
+  ]
+}
