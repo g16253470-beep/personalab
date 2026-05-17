@@ -48,29 +48,31 @@ personalab v0.2.0 已 ship 完整框架 + 2 个公开 case study，**核心商�
 
 ---
 
-## 当前阶段：Gap Discovery Day 1-2（dev tools vertical）执行中
+## 当前阶段：Gap Discovery Day 4 完成，Day 5 准备启动
 
-按 6-month 路线图（README 里）：
+按 6-month 路线图（README 里）+ v1.0 Autonomy Vision（docs/AUTONOMY_VISION.md）：
 
 ```
 [已完成] v0.2.0 ship + 2 case study + 三方 audit
-[当前]   Gap Discovery Day 1-4 — dev tools vertical
-[待定]   Day 5-10 manual MVP 后续
-[待定]   M2 — 公开 release + traction
-[待定]   M3-M6 — 按 traction 决定后续
+[已完成] Day 1-4 Gap Discovery dev tools (392 → 235 真实 unmet need)
+[当前]   Day 5 personas 反驳器 + Day 6 incumbent teardown
+[gate]   Day 7-8 cold email 真实 buyer outreach (PMF 信号验证)
+[激活]   v1.0 W1-W6 7-level autonomy (gate 过才启动)
 ```
+
+**v1.0 北极星**：详见 `docs/AUTONOMY_VISION.md`，7-level autonomous loop，6 周解锁，Level 4（auto landing + auto cold email）是最高 ROI 一级。
 
 ---
 
-## Gap Discovery 进展（截至 2026-05-18 03:00 BJT）
+## Gap Discovery 进展（截至 2026-05-18 03:53 BJT）
 
 | Day | 工作 | 状态 |
 |---|---|---|
-| 1 | 选 vertical = dev tools；写 cold email 3 个 variant；写 HN/Reddit scrape | ✅ |
-| 2 | HN scrape 392 条 quotes（Reddit 403 blocked，跳过用 OAuth）| ✅ |
-| 3 | （并入 Day 2/4，节省时间）| - |
-| 4 | Gemini Flash 标注 — 50 条 sample 验证（44% dev-tool 相关），全 392 条后台跑中 | 🔄 进行中 |
-| 5 | personas 反驳器 | ⏳ |
+| 1 | 选 vertical = dev tools；写 cold email 3 variant；scrape 脚本 | ✅ |
+| 2 | HN scrape **392 条 quotes**（2007-2026 date range）| ✅ |
+| 3 | （并入 Day 2/4）| - |
+| 4 | Gemini Flash 标注 **392/392 完成，0 错误，235 (59%) 真 dev-tool**；segment 主导 staff_eng 137 (58%) | ✅ |
+| 5 | personas 反驳器 — 235 cluster → 12 personas 反对票 | ⏳ NEXT |
 | 6 | incumbent teardown | ⏳ |
 | 7-8 | cold email 30 封 | ⏳ |
 | 9 | Top 3 brief | ⏳ |
