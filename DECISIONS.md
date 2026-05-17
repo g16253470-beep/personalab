@@ -93,6 +93,25 @@ Append-only 决策日志。**永远不要删除条目**，新增在最下面。
 
 下一步：Day 5 personas 反驳器（用 235 真实 cluster）。
 
+### D-15 Day 5 personas 反驳器完成，9 defensible cluster 入 Day 6
+**已实施**：
+- 235 dev-tool unmet need → LLM 聚类 18 cluster
+- 12 personas 各反驳 6-8 cluster（**作为反驳器，不是投票器**）
+- **9 defensible (≤ 4 down-vote) / 9 rejected**
+- 成本：~14 Gemini Flash calls，~3 min
+
+**Top 4 candidate**（按"提及频率 × 反对少 × severity"排）：
+- **C3** 团队协作 / code review / contrib mgmt (members=**20**, down=2/12, sev=3.1)
+- **C4** AI/LLM coding agent 精确性 + context (members=12, down=2/12, sev=3.67)
+- **C11** 跨设备数据同步 + DB GUI (members=7, **down=1/12**, sev=3.57)
+- **C14** SRE 用户级监控 + AI 性能可观测 (members=3, **down=1/12**, **sev=4.0**)
+
+**Day 6 重点 teardown** 这 4 个 cluster 的 incumbents：
+- C3: CodeRabbit / Sourcery / Linear / GitHub native review
+- C4: Cursor / Copilot / Aider / Windsurf
+- C11: TablePlus / DBeaver / Sequel Pro / iCloud sync
+- C14: Datadog / Honeycomb / Sentry / LangSmith / Helicone
+
 ---
 
 ## 待决策
