@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets — NEVER commit
+.env
+.env.*
+*api_key*
+*api-key*
+*credentials*
+
+# Local databases / caches
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.coverage
+htmlcov/
+
+# OS / tooling
+.DS_Store
+Thumbs.db
+*.log
+
+# Reports — exclude raw data + html (big, regeneratable), keep markdown artifacts
+reports/**/*_result.json
+reports/**/demo.db
+reports/**/*.html
+reports/**/action_loop.md
+
+# Out / scratch dirs
+out/
+scratch/
+shared/codex-*.txt
+shared/gemini-*.md
+

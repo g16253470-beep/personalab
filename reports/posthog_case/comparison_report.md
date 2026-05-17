@@ -1,0 +1,53 @@
+# posthog 双轨人格测试对比
+
+**生成**: 2026-05-18 01:17 UTC+8  ·  static events: 7  ·  agentic events: 7  ·  days: 5
+
+## 方法对比
+
+| 维度 | Static（Tier 2）| Agentic（Tier 4）|
+|---|---|---|
+| 输入 | 一次性 transcript | N 个虚拟日分段流，每日决策一次 |
+| 人格 | 12 | 12 |
+| LLM 调用 | 12 | ~72 |
+| 决策点 | 1 次（看完即评） | N+1 次/人格（每日 + 最终verdict）|
+| 可观察行为 | "如果是我，我会..." | 实际切配置 / mute / 退订 |
+| LLM | gemini/gemini-2.5-flash | gemini/gemini-2.5-flash |
+
+## 总结果对比
+
+| 人格 | Static | Agentic | 一致性 |
+|---|---|---|---|
+| 01_early_founder | yes q3 | ERR | — |
+| 02_growth_pm | yes q2 | ERR | — |
+| 03_user_researcher_hostile | yes q2 | ERR | — |
+| 04_vc_thesis | yes q3 | ERR | — |
+| 05_indie_hacker | no q10 | ERR | — |
+| 06_research_consultant | yes q4 | ERR | — |
+| 07_oss_maintainer | no q7 | ERR | — |
+| 08_ai_safety_skeptic | no q8 | ERR | — |
+| 09_corporate_pm | no q10 | ERR | — |
+| 10_no_code_user | maybe q8 | ERR | — |
+| 11_data_team_lead | yes q3 | ERR | — |
+| 12_designer_lead | ERR | ERR | — |
+
+**Verdict count**:
+- Static:  6 yes / 1 maybe / 4 no / 1 err
+- Agentic: 0 yes / 0 maybe / 0 no / 12 err
+
+**Agentic 把 1 个 'maybe' 打回原形成 NO** —— 一次性印象比多日体验宽容。
+
+## Top 痛点关键词（agentic top_friction，≥2 人格）
+
+（无关键词被 ≥2 个人格提到）
+
+## 方法学结论
+
+**Static 测试有用但乐观偏移**：一次性 transcript 给了产品 benefit of doubt；Agentic 把 "maybe 我可能会试试" 转化成 "试过了，不行"。
+
+**最具决定性的差距：跨日行为**：短 transcript 中只是 1-2 条异常的问题，多日运行就成 pattern。
+
+## 💰 月费意愿分布（agentic verdict）
+
+| 价位 | 人格 |
+|---|---|
+

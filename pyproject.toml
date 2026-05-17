@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "personalab"
+version = "0.2.0"
+description = "LLM-driven persona testing + agentic behavior simulation framework"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "personalab" }]
+keywords = ["llm", "persona", "user-testing", "agentic", "simulation", "product-research"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Testing",
+]
+# Honest disclosure: framework + CLI work end-to-end. NO hosted plans, NO
+# Slack/Notion integration, NO web UI, NO calibration data — those would be
+# vaporware. See README "Honest disclaimers". Roadmap lives in GitHub Issues.
+dependencies = []
+
+[project.optional-dependencies]
+claude-cli = []
+anthropic-api = ["anthropic>=0.40"]
+openai = ["openai>=1.50"]
+gemini = ["google-genai>=0.3"]
+html = ["markdown>=3.5"]
+all = [
+    "anthropic>=0.40",
+    "openai>=1.50",
+    "google-genai>=0.3",
+    "markdown>=3.5",
+]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.6",
+]
+
+[project.scripts]
+personalab = "personalab.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/personalab/personalab"
+Issues = "https://github.com/personalab/personalab/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+personalab = ["py.typed"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
