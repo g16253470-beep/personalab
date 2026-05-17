@@ -1,0 +1,58 @@
+[
+  {
+    "truly_c11_related": true,
+    "confidence_1_to_5": 4,
+    "reason": "该引用是在抱怨现有的数据库GUI工具缺乏创建复杂关联测试数据的能力，而C11的目标是做一个数据库GUI客户端。",
+    "if_true_then_subtype": "db_gui_pain",
+    "file": "hn_5470551.md"
+  },
+  {
+    "truly_c11_related": true,
+    "confidence_1_to_5": 5,
+    "reason": "该引用明确寻求'Direct Sync services, sans cloud storage'并声明'I keep 0 bits in the cloud'，这与C11集群定义的'cross-device sync'和'no cloud server / local-first'隐私优先方法完全吻合。",
+    "if_true_then_subtype": "local_first",
+    "file": "hn_7096377.md"
+  },
+  {
+    "truly_c11_related": true,
+    "confidence_1_to_5": 5,
+    "reason": "该引用抱怨了现有数据库GUI工具（PhpStorm/IDEA的集成工具）在处理复杂SQL时SQL解析器存在根本性缺陷，这直接指向了C11定义中'Local-first database GUI client'所要解决的核心痛点，即提供一个更可靠、功能更强的GUI客户端。",
+    "if_true_then_subtype": "db_gui_pain",
+    "file": "hn_7868615.md"
+  },
+  {
+    "truly_c11_related": false,
+    "confidence_1_to_5": 5,
+    "reason": "Quote's 'clustering' is generic, lacking context of client-side DB GUI settings, cross-device sync, local-first, or P2P described in C11 definition. It could refer to database clustering, application clustering, etc.",
+    "if_true_then_subtype": null,
+    "file": "hn_8231287.md"
+  },
+  {
+    "truly_c11_related": false,
+    "confidence_1_to_5": 5,
+    "reason": "该引文讨论的是操作系统（Windows、Linux、OSX）的安装、驱动和注册表问题，与数据库GUI工具、跨设备同步或local-first概念完全无关。",
+    "if_true_then_subtype": null,
+    "file": "hn_911188.md"
+  },
+  {
+    "truly_c11_related": true,
+    "confidence_1_to_5": 5,
+    "reason": "该引言直接抱怨缺乏一个'更好'的数据库管理工具和'合理'的GUI，这与C11定义中'database GUI client'和针对现有工具用户的描述高度相关。",
+    "if_true_then_subtype": "db_gui_pain",
+    "file": "hn_9464444.md"
+  },
+  {
+    "truly_c11_related": true,
+    "confidence_1_to_5": 4,
+    "reason": "该引用讨论了原生应用（native apps）的普遍期望和Web应用的局限性，以及与Google的在线优先愿景的对比，这直接构成了C11'local-first'设计哲学和'no cloud server'选择的背景和挑战。",
+    "if_true_then_subtype": "local_first",
+    "file": "hn_952055.md"
+  },
+  {
+    "truly_c11_related": false,
+    "confidence_1_to_5": 5,
+    "reason": "The quote discusses fundamental input sanitization and security concerns with user input into databases, which is unrelated to the C11 definition's focus on database GUI client features, cross-device sync, and local-first architecture.",
+    "if_true_then_subtype": null,
+    "file": "hn_9827322.md"
+  }
+]

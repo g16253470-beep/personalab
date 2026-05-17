@@ -1,0 +1,9 @@
+queue_file,hn_id,hn_author,hn_karma,candidate_email,subject,ai_tell_score,spam_risk,estimated_reply_rate_pct,ready_to_send
+gap_discovery\verticals\dev_tools\cold_emails\queue\hn_9827322.md,hn_9827322,Gibbon1,8220,,Unsafe user input in databases?,4,2,12,False
+gap_discovery\verticals\dev_tools\cold_emails\queue\hn_7096377.md,hn_7096377,tunap,1421,,"Direct Sync, sans cloud storage: an old frustration?",3,2,8,False
+gap_discovery\verticals\dev_tools\cold_emails\queue\hn_9464444.md,hn_9464444,pearjuice,3041,,"Better PHPMyAdmin Alternative, Sane GUI?",2,2,5,False
+gap_discovery\verticals\dev_tools\cold_emails\queue\hn_7868615.md,hn_7868615,pilif,14945,,"PhpStorm SQL parser, `::type` cast issues",3,2,5,False
+gap_discovery\verticals\dev_tools\cold_emails\queue\hn_5470551.md,hn_5470551,ivanhoe,4347,,Tool to create test data with relations,4,1,3,False
+gap_discovery\verticals\dev_tools\cold_emails\queue\hn_8231287.md,hn_8231287,coffeemug,15737,,Frustrated with clustering?,3,2,3,False
+gap_discovery\verticals\dev_tools\cold_emails\queue\hn_952055.md,hn_952055,rpdillon,4982,hn.rpdillon@xoxy.net,Your 2009 comment: 'change the way people think',2,2,18,True
+gap_discovery\verticals\dev_tools\cold_emails\queue\hn_911188.md,hn_911188,pyre,21156,,Your 2009 'hacking the registry' point,4,2,8,False
