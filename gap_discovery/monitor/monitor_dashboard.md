@@ -1,30 +1,30 @@
 # personalab — autonomous monitor dashboard
 
-_Last updated: 2026-05-18T00:32:08.955970+00:00_
-_Total mentions tracked: **75**_
+_Last updated: 2026-05-18T03:07:23.316116+00:00_
+_Total mentions tracked: **108**_
 
 ## 🚨 Brand mentions (highest priority)
 
+- [github] 2026-05-18  `g16253470-beep/personalab: LLM-driven persona testing + Gap Discovery framework.`...  [link](https://github.com/g16253470-beep/personalab)
+- [hn] 2026-05-17  `Rcarmo/iOS-terax-AI: Personal fork of Terax for integration with iOS-Linux-kit `...  [link](https://news.ycombinator.com/item?id=48173169)
+- [hn] 2026-05-17  `Show HN: A freehand drawing guestbook for my portfolio I added a drawing guestbo`...  [link](https://news.ycombinator.com/item?id=48169917)
+- [hn] 2026-05-17  `Show HN: OpenClaw is just not dangerous enough. I needed something else I&#x27;m`...  [link](https://news.ycombinator.com/item?id=48168953)
+- [hn] 2026-05-17  `I Solved Personal Siri [video] `...  [link](https://news.ycombinator.com/item?id=48168807)
+- [hn] 2026-05-17  `Ask HN: What's the minimum needed tech to sustain modern civilization? I think t`...  [link](https://news.ycombinator.com/item?id=48167495)
+- [hn] 2026-05-17  `Ask HN: What LLM models are you using and why? Hello, HN!<p>I&#x27;m wondering w`...  [link](https://news.ycombinator.com/item?id=48166147)
+- [hn] 2026-05-17  `What right has a "personal fortune" to be anything but working capital? What rig`...  [link](https://news.ycombinator.com/item?id=48166136)
+- [hn] 2026-05-16  `ChatGPT can access your financial data via Plaid to provide personalized advice `...  [link](https://news.ycombinator.com/item?id=48161189)
+- [hn] 2026-05-16  `OpenAI launches ChatGPT for personal finance, will let you connect bank accounts`...  [link](https://news.ycombinator.com/item?id=48160655)
+- [hn] 2026-05-16  `A personal letter on transformative AI `...  [link](https://news.ycombinator.com/item?id=48160020)
+- [hn] 2026-05-16  `List of known personal websites that host Wander, a tool to wander the small web`...  [link](https://news.ycombinator.com/item?id=48159171)
+- [hn] 2026-05-16  `Show HN: A Dark Cave – Minimalistic Graphics in the Age of AI Slop Almost a year`...  [link](https://news.ycombinator.com/item?id=48158305)
+- [hn] 2026-05-16  `Personalization and Privacy Choice `...  [link](https://news.ycombinator.com/item?id=48157208)
+- [hn] 2026-05-15  `Improving Windows quality: Making Taskbar and Start more personal `...  [link](https://news.ycombinator.com/item?id=48153601)
+- [hn] 2026-05-15  `AI as Externalized Context – Regaining Personal Dev Momentum `...  [link](https://news.ycombinator.com/item?id=48153015)
+- [hn] 2026-05-15  `Show HN: Raybeam – A better way to screen share on macOS Problem<p>A few years a`...  [link](https://news.ycombinator.com/item?id=48152983)
 - [hn] 2026-05-15  `Personal Finance Experience in ChatGPT `...  [link](https://news.ycombinator.com/item?id=48150609)
+- [hn] 2026-05-15  `Show HN: TongueType – Local, privacy-focused Whisper dictation for macOS Hi HN,<`...  [link](https://news.ycombinator.com/item?id=48148106)
 - [hn] 2026-05-14  `Tencent admits GPUs only pay for themselves when powering personalized ads `...  [link](https://news.ycombinator.com/item?id=48142050)
-- [hn] 2026-05-14  `The other half of AI safety `...  [link](https://news.ycombinator.com/item?id=48129561)
-- [hn] 2026-05-12  `Clusters become personal (like PCs did) `...  [link](https://news.ycombinator.com/item?id=48115816)
-- [github] 2026-05-12  `TXTW/PersonaLab: `...  [link](https://github.com/TXTW/PersonaLab)
-- [hn] 2026-05-12  `Show HN: Personal Trainer – Lift, share plans, and rank with friends Hi HN, I&#x`...  [link](https://news.ycombinator.com/item?id=48103112)
-- [hn] 2026-05-10  `"openai.com" was once the personal homepage of a guy named glenn `...  [link](https://news.ycombinator.com/item?id=48082617)
-- [github] 2026-05-10  `anthonyedgar30000/PersonaLabs: PersonaLabs — a cognitive observability and inten`...  [link](https://github.com/anthonyedgar30000/PersonaLabs)
-- [hn] 2026-05-08  `Ask HN: How do you find good personal blogs on Google nowadays? `...  [link](https://news.ycombinator.com/item?id=48068913)
-- [hn] 2026-05-07  `Ask HN: What is your go-to solution for a personal wiki in 2026? I&#x27;ve used `...  [link](https://news.ycombinator.com/item?id=48053163)
-- [hn] 2026-05-07  `Vibe-Coded Apps Expose Corporate and Personal Data on the Open Web `...  [link](https://news.ycombinator.com/item?id=48050645)
-- [hn] 2026-05-06  `Kash Patel's Personalized Bourbon Stash `...  [link](https://news.ycombinator.com/item?id=48043378)
-- [hn] 2026-05-06  `Grug on Personal Finance `...  [link](https://news.ycombinator.com/item?id=48038359)
-- [hn] 2026-05-06  `OpenAI president forced to read his personal diary entries to jury `...  [link](https://news.ycombinator.com/item?id=48035969)
-- [hn] 2026-05-05  `Zuckerberg 'personally authorized' Meta's copyright infringement, publishers say`...  [link](https://news.ycombinator.com/item?id=48029334)
-- [hn] 2026-05-05  `Brockman's 'deeply personal' diary becomes focus in Musk vs. Altman case `...  [link](https://news.ycombinator.com/item?id=48027453)
-- [hn] 2026-05-05  `Zuckerberg 'Personally Authorized and Encouraged' Meta's Copyright Infringement `...  [link](https://news.ycombinator.com/item?id=48026207)
-- [hn] 2026-05-05  `Show HN: I built an API for agents visiting my personal website `...  [link](https://news.ycombinator.com/item?id=48024102)
-- [github] 2026-05-05  `hiidecho/personalab: personalab`...  [link](https://github.com/hiidecho/personalab)
-- [hn] 2026-05-05  `Meta, TikTok Recv Personal Data from Health Exchanges Alarming Privacy Experts `...  [link](https://news.ycombinator.com/item?id=48017623)
 
 ## 🎯 C11 pain mentions
 
@@ -34,11 +34,16 @@ _Total mentions tracked: **75**_
 
 ## 🥊 Competitor mentions
 
+- [github] 2026-05-18  `Tubifix77/synthetic-user: A closed-loop agent architecture where one LLM generat`...  [link](https://github.com/Tubifix77/synthetic-user)
 - [hn] 2026-05-17  `Ask HN: Reading AI Assisted Essays Something I&#x27;ve been pondering for a whil`...  [link](https://news.ycombinator.com/item?id=48170026)
+- [github] 2026-05-15  `tonyndrc-afk/agri-one-v1: AgriOne v1 — urban agriculture POC: IoT + AI copilot, `...  [link](https://github.com/tonyndrc-afk/agri-one-v1)
 - [github] 2026-05-15  `gajoshanielle/Instagram-usage-analysis: This repository contains analytical insi`...  [link](https://github.com/gajoshanielle/Instagram-usage-analysis)
 - [hn] 2026-05-14  `Have LLMs made anyone's life substantially better? I can&#x27;t help but come to`...  [link](https://news.ycombinator.com/item?id=48136636)
 - [github] 2026-05-13  `harishkotra/boardroom-exe: A real-time multi-agent simulation where AI personas `...  [link](https://github.com/harishkotra/boardroom-exe)
+- [github] 2026-05-11  `rogue-socket/focusgroup: Persona-driven dynamic testing for conversational AI pr`...  [link](https://github.com/rogue-socket/focusgroup)
 - [hn] 2026-05-11  `Intel to Put Nvidia GPUs in Intel SoCs `...  [link](https://news.ycombinator.com/item?id=48097338)
+- [github] 2026-05-11  `yanaajjamada-crypto/nykaa-pm-case-study: PM case study — Improving product disco`...  [link](https://github.com/yanaajjamada-crypto/nykaa-pm-case-study)
+- [github] 2026-05-11  `yanaajjamada-crypto/medisafe-ai-pm-casestudy: PM case study — AI-powered drug in`...  [link](https://github.com/yanaajjamada-crypto/medisafe-ai-pm-casestudy)
 - [github] 2026-05-11  `jesposito/gauntlet: Run a gauntlet of personas against your product. Get repro-r`...  [link](https://github.com/jesposito/gauntlet)
 - [github] 2026-05-10  `joychan777777/tomo-taste-lab: AI-powered consumer perception simulation for F&B `...  [link](https://github.com/joychan777777/tomo-taste-lab)
 - [github] 2026-05-10  `ShamKumarM/AI-Product-Copilot-using-Generative-AI-: Developed a Generative AI-po`...  [link](https://github.com/ShamKumarM/AI-Product-Copilot-using-Generative-AI-)
@@ -59,8 +64,3 @@ _Total mentions tracked: **75**_
 - [hn] 2026-04-29  `Personal Productivity Tools in the Age of AI `...  [link](https://news.ycombinator.com/item?id=47946708)
 - [hn] 2026-04-28  `Ask HN: What do you check before launching a web app? I’ve been reviewing a lot `...  [link](https://news.ycombinator.com/item?id=47937333)
 - [hn] 2026-04-27  `What type of code should you generate with AI? I (and many people) have been thi`...  [link](https://news.ycombinator.com/item?id=47917192)
-- [hn] 2026-04-26  `Ask HN: How do I learn software engineering and transition to building products?`...  [link](https://news.ycombinator.com/item?id=47912500)
-- [github] 2026-04-25  `julka-veeam/vdc-pm-skills: Product Management AI Skills for Veeam Data Cloud — c`...  [link](https://github.com/julka-veeam/vdc-pm-skills)
-- [hn] 2026-04-25  `Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git) I shi`...  [link](https://news.ycombinator.com/item?id=47899844)
-- [hn] 2026-04-24  `Show HN: MirrorNeuron – an open-source runtime for reliable on-device AI agents `...  [link](https://news.ycombinator.com/item?id=47884446)
-- [github] 2026-04-23  `mindful-ai-dude/diverse-persona-generator: Generating Diverse Synthetic Personas`...  [link](https://github.com/mindful-ai-dude/diverse-persona-generator)
