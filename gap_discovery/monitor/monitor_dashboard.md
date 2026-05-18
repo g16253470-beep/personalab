@@ -1,0 +1,66 @@
+# personalab — autonomous monitor dashboard
+
+_Last updated: 2026-05-18T00:32:08.955970+00:00_
+_Total mentions tracked: **75**_
+
+## 🚨 Brand mentions (highest priority)
+
+- [hn] 2026-05-15  `Personal Finance Experience in ChatGPT `...  [link](https://news.ycombinator.com/item?id=48150609)
+- [hn] 2026-05-14  `Tencent admits GPUs only pay for themselves when powering personalized ads `...  [link](https://news.ycombinator.com/item?id=48142050)
+- [hn] 2026-05-14  `The other half of AI safety `...  [link](https://news.ycombinator.com/item?id=48129561)
+- [hn] 2026-05-12  `Clusters become personal (like PCs did) `...  [link](https://news.ycombinator.com/item?id=48115816)
+- [github] 2026-05-12  `TXTW/PersonaLab: `...  [link](https://github.com/TXTW/PersonaLab)
+- [hn] 2026-05-12  `Show HN: Personal Trainer – Lift, share plans, and rank with friends Hi HN, I&#x`...  [link](https://news.ycombinator.com/item?id=48103112)
+- [hn] 2026-05-10  `"openai.com" was once the personal homepage of a guy named glenn `...  [link](https://news.ycombinator.com/item?id=48082617)
+- [github] 2026-05-10  `anthonyedgar30000/PersonaLabs: PersonaLabs — a cognitive observability and inten`...  [link](https://github.com/anthonyedgar30000/PersonaLabs)
+- [hn] 2026-05-08  `Ask HN: How do you find good personal blogs on Google nowadays? `...  [link](https://news.ycombinator.com/item?id=48068913)
+- [hn] 2026-05-07  `Ask HN: What is your go-to solution for a personal wiki in 2026? I&#x27;ve used `...  [link](https://news.ycombinator.com/item?id=48053163)
+- [hn] 2026-05-07  `Vibe-Coded Apps Expose Corporate and Personal Data on the Open Web `...  [link](https://news.ycombinator.com/item?id=48050645)
+- [hn] 2026-05-06  `Kash Patel's Personalized Bourbon Stash `...  [link](https://news.ycombinator.com/item?id=48043378)
+- [hn] 2026-05-06  `Grug on Personal Finance `...  [link](https://news.ycombinator.com/item?id=48038359)
+- [hn] 2026-05-06  `OpenAI president forced to read his personal diary entries to jury `...  [link](https://news.ycombinator.com/item?id=48035969)
+- [hn] 2026-05-05  `Zuckerberg 'personally authorized' Meta's copyright infringement, publishers say`...  [link](https://news.ycombinator.com/item?id=48029334)
+- [hn] 2026-05-05  `Brockman's 'deeply personal' diary becomes focus in Musk vs. Altman case `...  [link](https://news.ycombinator.com/item?id=48027453)
+- [hn] 2026-05-05  `Zuckerberg 'Personally Authorized and Encouraged' Meta's Copyright Infringement `...  [link](https://news.ycombinator.com/item?id=48026207)
+- [hn] 2026-05-05  `Show HN: I built an API for agents visiting my personal website `...  [link](https://news.ycombinator.com/item?id=48024102)
+- [github] 2026-05-05  `hiidecho/personalab: personalab`...  [link](https://github.com/hiidecho/personalab)
+- [hn] 2026-05-05  `Meta, TikTok Recv Personal Data from Health Exchanges Alarming Privacy Experts `...  [link](https://news.ycombinator.com/item?id=48017623)
+
+## 🎯 C11 pain mentions
+
+- [github] 2026-05-11  `bypepe77/ZenithDB: ZenithDB is a schema-compiled application database for Go: Pr`...  [link](https://github.com/bypepe77/ZenithDB)
+- [github] 2026-05-10  `andrewa-alt/mealprep: MealPrep.exe — Local-first meal prep ERP with USDA ingredi`...  [link](https://github.com/andrewa-alt/mealprep)
+- [github] 2026-05-01  `adaxial-lineofscrimmage6998/mempalace: Manage AI memories with a lightweight, lo`...  [link](https://github.com/adaxial-lineofscrimmage6998/mempalace)
+
+## 🥊 Competitor mentions
+
+- [hn] 2026-05-17  `Ask HN: Reading AI Assisted Essays Something I&#x27;ve been pondering for a whil`...  [link](https://news.ycombinator.com/item?id=48170026)
+- [github] 2026-05-15  `gajoshanielle/Instagram-usage-analysis: This repository contains analytical insi`...  [link](https://github.com/gajoshanielle/Instagram-usage-analysis)
+- [hn] 2026-05-14  `Have LLMs made anyone's life substantially better? I can&#x27;t help but come to`...  [link](https://news.ycombinator.com/item?id=48136636)
+- [github] 2026-05-13  `harishkotra/boardroom-exe: A real-time multi-agent simulation where AI personas `...  [link](https://github.com/harishkotra/boardroom-exe)
+- [hn] 2026-05-11  `Intel to Put Nvidia GPUs in Intel SoCs `...  [link](https://news.ycombinator.com/item?id=48097338)
+- [github] 2026-05-11  `jesposito/gauntlet: Run a gauntlet of personas against your product. Get repro-r`...  [link](https://github.com/jesposito/gauntlet)
+- [github] 2026-05-10  `joychan777777/tomo-taste-lab: AI-powered consumer perception simulation for F&B `...  [link](https://github.com/joychan777777/tomo-taste-lab)
+- [github] 2026-05-10  `ShamKumarM/AI-Product-Copilot-using-Generative-AI-: Developed a Generative AI-po`...  [link](https://github.com/ShamKumarM/AI-Product-Copilot-using-Generative-AI-)
+- [hn] 2026-05-08  `Show HN: An OTel exporter that posts the cause to your incident channel Hi HN, A`...  [link](https://news.ycombinator.com/item?id=48056811)
+- [github] 2026-05-06  `cmjones37/persona-insights: A simulated persona database to demonstrate AI-assis`...  [link](https://github.com/cmjones37/persona-insights)
+- [hn] 2026-05-06  `Ask HN: Is writing code by hand still a necessary skill for developers? TLDR - M`...  [link](https://news.ycombinator.com/item?id=48034901)
+- [github] 2026-05-05  `JamesPriceZV/Agenic-Load-Balancer: This app is designed for commercial, professi`...  [link](https://github.com/JamesPriceZV/Agenic-Load-Balancer)
+- [hn] 2026-05-03  `Show HN: TrainForgeTester – deterministic scenario tests for AI agents Hi guys,<`...  [link](https://news.ycombinator.com/item?id=48000135)
+- [hn] 2026-05-03  `Show HN: A Privacy tool that finds and hides sensitive data in phtots/videos HI `...  [link](https://news.ycombinator.com/item?id=47999690)
+- [github] 2026-05-02  `agora-simulation/Agora_Simulation: AI-powered market research simulation. Hundre`...  [link](https://github.com/agora-simulation/Agora_Simulation)
+- [github] 2026-05-02  `aaman11/ranksense-ai: Analyze how AI recommends products and track your brand’s `...  [link](https://github.com/aaman11/ranksense-ai)
+- [github] 2026-05-02  `rombyar/ChatKiBot: AI-powered chat widget for SME websites, supporting multiple `...  [link](https://github.com/rombyar/ChatKiBot)
+- [hn] 2026-04-30  `Show HN: Sediman – A platform to run your product with AI customer personas `...  [link](https://news.ycombinator.com/item?id=47962401)
+- [github] 2026-04-30  `arshkaur2405/Social-Media-Sentiment-Analysis: An end-to-end Machine Learning and`...  [link](https://github.com/arshkaur2405/Social-Media-Sentiment-Analysis)
+- [hn] 2026-04-30  `Show HN: Task Manager for AI Agents (MCP, Opensource) AgentRQ is a (optionally) `...  [link](https://news.ycombinator.com/item?id=47958608)
+- [hn] 2026-04-30  `What I changed in how I use Claude Code after Anthropic's postmortem After watch`...  [link](https://news.ycombinator.com/item?id=47957402)
+- [github] 2026-04-30  `jiayi-ong/ad-synth-ai: Agentic marketing system that transforms product inputs, `...  [link](https://github.com/jiayi-ong/ad-synth-ai)
+- [hn] 2026-04-29  `Personal Productivity Tools in the Age of AI `...  [link](https://news.ycombinator.com/item?id=47946708)
+- [hn] 2026-04-28  `Ask HN: What do you check before launching a web app? I’ve been reviewing a lot `...  [link](https://news.ycombinator.com/item?id=47937333)
+- [hn] 2026-04-27  `What type of code should you generate with AI? I (and many people) have been thi`...  [link](https://news.ycombinator.com/item?id=47917192)
+- [hn] 2026-04-26  `Ask HN: How do I learn software engineering and transition to building products?`...  [link](https://news.ycombinator.com/item?id=47912500)
+- [github] 2026-04-25  `julka-veeam/vdc-pm-skills: Product Management AI Skills for Veeam Data Cloud — c`...  [link](https://github.com/julka-veeam/vdc-pm-skills)
+- [hn] 2026-04-25  `Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git) I shi`...  [link](https://news.ycombinator.com/item?id=47899844)
+- [hn] 2026-04-24  `Show HN: MirrorNeuron – an open-source runtime for reliable on-device AI agents `...  [link](https://news.ycombinator.com/item?id=47884446)
+- [github] 2026-04-23  `mindful-ai-dude/diverse-persona-generator: Generating Diverse Synthetic Personas`...  [link](https://github.com/mindful-ai-dude/diverse-persona-generator)

@@ -1,0 +1,8 @@
+{
+  "channel": "hn_reply",
+  "url": "https://news.ycombinator.com/item?id=PLACEHOLDER",
+  "from_author": "their_hn_handle",
+  "context_quote": "Their original HN comment that started the thread. Quote them verbatim so the LLM can reference back.",
+  "their_reply": "What they just replied to you. Copy-paste full text.",
+  "our_goal": "calibrate willingness to pay $15/mo for local-first DB GUI with cross-device sync; advance toward demo or signup"
+}
