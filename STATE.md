@@ -2,13 +2,26 @@
 
 > **新会话入口**：开新对话只需输入 "读 G:/gpt/personalab/STATE.md 继续"，Claude 会自动恢复完整 context。
 >
-> 上次更新：2026-05-18 02:55 BJT
+> 上次更新：2026-05-18 09:00 BJT
+
+---
+
+## 🎉 PUBLIC URLS (live as of 2026-05-18)
+
+- **GitHub repo**: https://github.com/g16253470-beep/personalab
+- **Public Gist (C11 brief)**: https://gist.github.com/g16253470-beep/689071000407ef83f1226896e77c2840
+- **Autonomous monitor**: Windows scheduled task `personalab_monitor`, runs every 2h, dashboard at `gap_discovery/monitor/monitor_dashboard.md`
+
+**Show HN submit ready (1-click)**: https://news.ycombinator.com/submit
+- Title: `Show HN: personalab - let 12 AI personas tell you which $500/yr SaaS to build next`
+- URL: `https://github.com/g16253470-beep/personalab`
+- Text body: see `LAUNCH.md` Option B
 
 ---
 
 ## 一句话现状
 
-personalab v0.2.0 已 ship 完整框架 + 2 个公开 case study，**核心商业方向已被三方独立审计否决（不做 SaaS）**，最新方向是 **Gap Discovery manual-first MVP**（Codex audit 推荐路径），等你定 vertical 后 Day 1 启动。
+personalab v0.2.0 已 ship 完整框架 + 2 个公开 case study，**核心商业方向已被三方独立审计否决（不做 SaaS）**。Gap Discovery Day 1-9 完整跑通（dev tools vertical），找到 C11 (local-first DB GUI + cross-device sync) 为 winner，sibling 项目 `G:/gpt/personalab_db_sync/` W1 scaffold 已就绪。**2026-05-18 GitHub 公开发布 + autonomous monitor 启动**。
 
 ---
 
