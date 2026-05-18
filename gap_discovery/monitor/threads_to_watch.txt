@@ -23,3 +23,21 @@ commits: 14
 url: https://gist.github.com/g16253470-beep/689071000407ef83f1226896e77c2840
 title: personalab Gap Discovery — dev tools vertical Top 4 finding
 created: 2026-05-18
+
+[dev.to]
+title: I tested my AI product tester on 3 real SaaS products. Every persona said no.
+url: https://dev.to/personalab/i-tested-my-ai-product-tester-on-3-real-saas-products-every-persona-said-no-26ci
+launched_at: 2026-05-18 ~12:20 BJT
+username: personalab
+tags: opensource, ai, python, productivity
+cover_image: personalab_logo.png
+
+[Reddit r/SideProject — FILTERED]
+url: https://www.reddit.com/r/SideProject/comments/1tgajyc/i_tested_my_ai_product_tester_on_3_real_saas/
+status: auto-filtered (new account spam protection)
+upvotes_when_filtered: 1
+modmail_sent: pending (user tried, "can't message" error)
+
+[Reddit r/indiehackers — FILTERED]
+status: auto-filtered (same reason)
+upvotes_when_filtered: 1
