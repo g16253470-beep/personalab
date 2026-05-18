@@ -38,6 +38,31 @@ STATE = INBOX / "autoreply_state.json"
 DAILY_CAP = 5
 SIGNATURE = "(drafted while traveling — back Friday, will respond properly then)"
 
+# Spam detection — skip these without drafting, to avoid amplifying spammers
+SPAM_KEYWORDS = [
+    "whatsapp", "whats app", "contact:", "telegram",
+    "seo service", "seo ranking", "google ranking", "brand ranking",
+    "boost your", "skyrocket", "guaranteed traffic",
+    "@gmail.com", "@yahoo.com", "@outlook.com",  # contact email signals
+    "+44 ", "+1 (", "+91 ",  # phone numbers
+    "dm me", "message me",
+    "make money", "earn $",
+    "buy followers", "buy likes",
+]
+
+
+def is_spam(text: str) -> tuple[bool, str]:
+    """Return (is_spam, reason)."""
+    t = text.lower()
+    for kw in SPAM_KEYWORDS:
+        if kw in t:
+            return True, f"keyword '{kw}'"
+    # Multiple URLs but short body
+    url_count = t.count("http")
+    if url_count >= 3 and len(t) < 500:
+        return True, f"too many URLs ({url_count}) in short text"
+    return False, ""
+
 
 # ============================================================
 # dev.to API
@@ -84,12 +109,17 @@ def devto_fetch_my_articles(api_key: str) -> list[dict]:
 
 
 def devto_fetch_comments(article_id: int, api_key: str) -> list[dict]:
-    # dev.to public comments API (no auth needed for read)
+    # dev.to public comments API (no auth needed for read) — but needs UA
     url = f"https://dev.to/api/comments?a_id={article_id}"
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "personalab-autoreply/0.1",
+        "Accept": "application/json",
+    })
     try:
-        with urllib.request.urlopen(url, timeout=15) as r:
+        with urllib.request.urlopen(req, timeout=15) as r:
             return json.loads(r.read())
-    except Exception:
+    except Exception as e:
+        print(f"[devto-comments] err: {e}", file=sys.stderr)
         return []
 
 
@@ -245,6 +275,18 @@ def main() -> int:
                     body = re.sub(r"<[^>]+>", "", body)[:1000]
                     print(f"[bot] devto new comment {cid}: {body[:80]}",
                           file=sys.stderr)
+                    spam, reason = is_spam(body)
+                    if spam:
+                        print(f"[bot] SPAM detected, skipping: {reason}",
+                              file=sys.stderr)
+                        log_action({
+                            "channel": "devto",
+                            "action": "spam_skipped",
+                            "comment_id": cid,
+                            "reason": reason,
+                            "body": body[:300],
+                        })
+                        continue
                     if today_count >= DAILY_CAP:
                         break
                     draft = draft_reply(
