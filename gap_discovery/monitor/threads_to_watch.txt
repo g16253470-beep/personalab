@@ -1,0 +1,25 @@
+# Active launch threads being tracked (2026-05-18+)
+# monitor.py will eventually consume this; for now manual reference.
+
+[IH]
+title: Launched: personalab — I tested it on PostHog, Cal.com, and itself. Every persona said no.
+url: https://www.indiehackers.com/post/launched-personalab-i-tested-it-on-posthog-cal-com-and-itself-every-persona-said-no-j766rC1WqI9mKEsvqCDi
+launched_at: 2026-05-18 ~10:40 BJT
+likes_at_launch: 1
+posts_count: 2
+
+[Reddit]
+title: I tested my AI product tester on 3 real SaaS products. Every persona said no.
+subreddit: r/SideProject (38.7K members / 2.5K active)
+url: https://www.reddit.com/r/SideProject/comments/1tgajyc/i_tested_my_ai_product_tester_on_3_real_saas/
+launched_at: 2026-05-18 ~11:28 BJT
+
+[GitHub]
+url: https://github.com/g16253470-beep/personalab
+public_since: 2026-05-18 ~09:00 BJT
+commits: 14
+
+[Gist]
+url: https://gist.github.com/g16253470-beep/689071000407ef83f1226896e77c2840
+title: personalab Gap Discovery — dev tools vertical Top 4 finding
+created: 2026-05-18

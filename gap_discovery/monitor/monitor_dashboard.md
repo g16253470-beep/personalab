@@ -1,7 +1,7 @@
 # personalab — autonomous monitor dashboard
 
-_Last updated: 2026-05-18T03:07:23.316116+00:00_
-_Total mentions tracked: **108**_
+_Last updated: 2026-05-18T03:08:35.682314+00:00_
+_Total mentions tracked: **111**_
 
 ## 🚨 Brand mentions (highest priority)
 
@@ -13,18 +13,18 @@ _Total mentions tracked: **108**_
 - [hn] 2026-05-17  `Ask HN: What's the minimum needed tech to sustain modern civilization? I think t`...  [link](https://news.ycombinator.com/item?id=48167495)
 - [hn] 2026-05-17  `Ask HN: What LLM models are you using and why? Hello, HN!<p>I&#x27;m wondering w`...  [link](https://news.ycombinator.com/item?id=48166147)
 - [hn] 2026-05-17  `What right has a "personal fortune" to be anything but working capital? What rig`...  [link](https://news.ycombinator.com/item?id=48166136)
+- [hn] 2026-05-16  `Show HN: Where do I stand? – Household Health I&#x27;ve always wondered if what `...  [link](https://news.ycombinator.com/item?id=48164569)
 - [hn] 2026-05-16  `ChatGPT can access your financial data via Plaid to provide personalized advice `...  [link](https://news.ycombinator.com/item?id=48161189)
 - [hn] 2026-05-16  `OpenAI launches ChatGPT for personal finance, will let you connect bank accounts`...  [link](https://news.ycombinator.com/item?id=48160655)
 - [hn] 2026-05-16  `A personal letter on transformative AI `...  [link](https://news.ycombinator.com/item?id=48160020)
 - [hn] 2026-05-16  `List of known personal websites that host Wander, a tool to wander the small web`...  [link](https://news.ycombinator.com/item?id=48159171)
 - [hn] 2026-05-16  `Show HN: A Dark Cave – Minimalistic Graphics in the Age of AI Slop Almost a year`...  [link](https://news.ycombinator.com/item?id=48158305)
 - [hn] 2026-05-16  `Personalization and Privacy Choice `...  [link](https://news.ycombinator.com/item?id=48157208)
+- [hn] 2026-05-15  `Google tests 5 GB cap for users who skip phone numbers `...  [link](https://news.ycombinator.com/item?id=48155169)
+- [hn] 2026-05-15  `Show HN: A seed prompt that bootstraps a custom knowledge-base system So I&#x27;`...  [link](https://news.ycombinator.com/item?id=48154710)
 - [hn] 2026-05-15  `Improving Windows quality: Making Taskbar and Start more personal `...  [link](https://news.ycombinator.com/item?id=48153601)
 - [hn] 2026-05-15  `AI as Externalized Context – Regaining Personal Dev Momentum `...  [link](https://news.ycombinator.com/item?id=48153015)
 - [hn] 2026-05-15  `Show HN: Raybeam – A better way to screen share on macOS Problem<p>A few years a`...  [link](https://news.ycombinator.com/item?id=48152983)
-- [hn] 2026-05-15  `Personal Finance Experience in ChatGPT `...  [link](https://news.ycombinator.com/item?id=48150609)
-- [hn] 2026-05-15  `Show HN: TongueType – Local, privacy-focused Whisper dictation for macOS Hi HN,<`...  [link](https://news.ycombinator.com/item?id=48148106)
-- [hn] 2026-05-14  `Tencent admits GPUs only pay for themselves when powering personalized ads `...  [link](https://news.ycombinator.com/item?id=48142050)
 
 ## 🎯 C11 pain mentions
 

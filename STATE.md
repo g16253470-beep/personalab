@@ -10,12 +10,13 @@
 
 - **GitHub repo**: https://github.com/g16253470-beep/personalab
 - **Public Gist (C11 brief)**: https://gist.github.com/g16253470-beep/689071000407ef83f1226896e77c2840
+- **IH product page**: https://www.indiehackers.com/product/personalab
+- **IH launch post** ⭐: https://www.indiehackers.com/post/launched-personalab-i-tested-it-on-posthog-cal-com-and-itself-every-persona-said-no-j766rC1WqI9mKEsvqCDi (live 2026-05-18 ~10:40 BJT, 1 LIKE at submit)
+- **Reddit r/SideProject post** ⭐: https://www.reddit.com/r/SideProject/comments/1tgajyc/i_tested_my_ai_product_tester_on_3_real_saas/ (live 2026-05-18 ~11:28 BJT, subreddit 38.7K members)
 - **Autonomous monitor**: Windows scheduled task `personalab_monitor`, runs every 2h, dashboard at `gap_discovery/monitor/monitor_dashboard.md`
+- **Active launch threads index**: `gap_discovery/monitor/threads_to_watch.txt`
 
-**Show HN submit ready (1-click)**: https://news.ycombinator.com/submit
-- Title: `Show HN: personalab - let 12 AI personas tell you which $500/yr SaaS to build next`
-- URL: `https://github.com/g16253470-beep/personalab`
-- Text body: see `LAUNCH.md` Option B
+**Show HN deferred**: new account anti-spam policy blocked submit. HN warm-up plan: comment + upvote 2-4 weeks on g16253470-beep then retry. Show HN draft text remains in `LAUNCH.md` Option B.
 
 ---
 

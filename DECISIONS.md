@@ -93,6 +93,22 @@ Append-only 决策日志。**永远不要删除条目**，新增在最下面。
 
 下一步：Day 5 personas 反驳器（用 235 真实 cluster）。
 
+### D-16 公开发布完成（GitHub + Gist + IH + Reddit）2026-05-18
+**已实施**：
+- 9:00 BJT — GitHub public repo (`g16253470-beep/personalab`)，14 commits 推送
+- 9:00 BJT — Public Gist 含 C11 bundle (16 KB)
+- 9:00 BJT — Windows scheduled task `personalab_monitor` 每 2h 自动跑
+- 10:40 BJT — IH product page (`/product/personalab`) + launch post live，**第 1 LIKE 在 submit 后 1 分钟内**
+- 11:28 BJT — Reddit r/SideProject (38.7K members) launch post live
+
+**HN 状态**：Show HN 被新账号 anti-spam 政策拦截（不是内容拒绝）。warm-up 计划 2-4 周后再试。
+
+**LAUNCH narrative 选定**：诚实交底版 — "I tested my AI tool on PostHog/Cal.com, every persona said no"（HN/IH/Reddit 三处一致）。
+
+**Identity barrier 物理瓶颈处理**：gh CLI 装一次（5 min OAuth）→ 后续 100% 自动化解锁所有 GitHub / Gist 操作。Reddit / IH / Show HN 仍需手工 submit（平台 anti-bot 政策无 API）。
+
+下一步：等 24-72h organic engagement signal，monitor 自动追踪。
+
 ### D-15 Day 5 personas 反驳器完成，9 defensible cluster 入 Day 6
 **已实施**：
 - 235 dev-tool unmet need → LLM 聚类 18 cluster
