@@ -130,12 +130,39 @@ Append-only 决策日志。**永远不要删除条目**，新增在最下面。
 
 ---
 
+## 2026-05-25
+
+### D-17 PersonaLab 命名冲突 — 维持现名 + disambiguation 备案
+**发现**：autonomous monitor 抓到两个同名 GitHub repo：
+- `KTKyle/PersonaLab` (2026-05-20)
+- `IV-Archi/PersonaLab` (2026-05-20)
+
+均为 `PersonaLab` (大驼峰)，我方仓库为 `g16253470-beep/personalab` (全小写)。GitHub 路径大小写不敏感，搜索会冲突。
+
+**决策**：**维持现名，准备 disambiguation 文案**，目前不重命名。
+
+**理由**：
+- 我方 release 早 2 天（5-18 vs 5-20），先到先占名声
+- 我方有 Gist + IH + dev.to 三个 anchor，SEO 已铺好
+- 重命名成本（CHANGELOG / Gist / IH / dev.to / domain / PyPI / Github actions / docs 全改）> 风险
+- 两个新 repo 都无 README / 无 star，应是 try-out 项目，自然衰减概率高
+
+**触发重命名条件**：
+- 任一同名 repo 在 30 天内 ≥ 50 star
+- 任一同名 repo 出现在 HN / Reddit top
+- 收到 issue 被误指为另一 repo
+
+**Disambiguation 文案**（待加 README 顶部）：
+> Not affiliated with KTKyle/PersonaLab or IV-Archi/PersonaLab — this is `g16253470-beep/personalab`, AI product tester framework with case studies on PostHog / Cal.com / itself.
+
+**How to apply**：每周一 monitor dashboard review 时检查两个 repo star/活跃，触发即升级到 D-18。
+
+---
+
 ## 待决策
 
-- D-15: 是否先发 LAUNCH.md Show HN — 等 Day 7-8 cold email 回复数据
-- D-16: git push GitHub — 等仓库公开 readiness
-- D-17: Manual Gap Diligence Service 商业模式 — 等 Day 7-8 cold email 回复率验证
-- D-18: 是否跳到 W1 Level 2 自动化 — 等 Day 5-10 manual MVP gate 结果（2 付费客户）
+- D-18 (deferred): Manual Gap Diligence Service 商业模式 — 等 Day 7-8 HN reply 验证
+- D-19 (deferred): 是否跳到 W1 Level 2 自动化 — 等 Day 5-10 manual MVP gate 结果（2 付费客户）
 
 ---
 
@@ -144,3 +171,37 @@ Append-only 决策日志。**永远不要删除条目**，新增在最下面。
 - ~~"做 SaaS $99/mo"~~ → D-10 三方 reject
 - ~~"做 19h 8-stage 自动化 MarketGapMode"~~ → D-11 reject by Codex
 - ~~"卖 personalab $30-80k"~~ → D-10 估值修正到 $2-8k，且非最优解
+
+---
+
+## 2026-05-26
+
+### D-20 🪦 HARD SUNSET — 项目封版关停
+**决策**：personalab 项目 hard sunset。GitHub repo archive（read-only），autoreply + monitor scheduled task disable，所有公开 launch anchor 不再维护，PyPI **不** publish。所有"待决策"项（D-18 / D-19）自动作废。
+
+**理由**：9 天产出 16 commits / 3,294 LOC / 3 case study / 1 三方 audit，但 0 条真人 buyer 反馈。manual MVP 唯一 gate（5 个 HN reply）卡 8 天没动 — 这个"心理 friction"本身就是 verdict。完整复盘见 [RETROSPECTIVE_SUNSET.md](RETROSPECTIVE_SUNSET.md)。
+
+**4 个根本错**（详细见 retrospective）：
+1. niche 选错 — dev tools 对 LLM persona 测试需求几乎为零；用"文件产出节奏"掩盖了
+2. D-10 三方 audit reject 没真内化 — 同日就写 D-13 用 AUTONOMY_VISION 情绪对冲
+3. launch 时机在 OOO 前一天 — 烧掉 organic engagement 黄金窗口
+4. 低估了 manual MVP 的"身份暴露成本" — AI 把所有准备压到 0 也救不了
+
+**关停 checklist**（执行记录）：
+- `personalab_autoreply` scheduled task → Disabled
+- `personalab_monitor` scheduled task → Disabled
+- RETROSPECTIVE_SUNSET.md 写完
+- README.md / STATE.md 加 sunset header
+- git remote 更新 `g16253470-beep → weiseer`（账户已改名，老链接 301 redirect / Gist 老 URL 404）
+- `gh repo archive weiseer/personalab` → 公开 archive
+- memory 替换 `project_personalab.md → project_personalab_sunset.md`
+
+**给未来自己的指令**：如果你想"重启 personalab"，先重读 RETROSPECTIVE_SUNSET.md 4 个根本错。如果想做下一个项目，从空白起步，不要继承这个名字。
+
+**How to apply**：终局决策，无 escalation path。任何"再试一次" 的冲动 → 先写新项目，不要回这个 repo。
+
+---
+
+## 终局
+
+`STATE.md` 改为 sunset-only 静态文件。`DECISIONS.md` 至此封口。后续不再有 D-21+。

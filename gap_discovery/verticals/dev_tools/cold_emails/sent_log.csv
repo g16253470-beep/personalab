@@ -1,0 +1,6 @@
+hn_id,handle,target_url,channel,sent_at_utc,reply_at_utc,reply_summary,wtp_signal,gate_count
+hn_7868615,pilif,https://news.ycombinator.com/item?id=7868615,hn_reply,,,,,
+hn_9464444,pearjuice,https://news.ycombinator.com/item?id=9464444,hn_reply,,,,,
+hn_7096377,tunap,https://news.ycombinator.com/item?id=7096377,hn_reply,,,,,
+hn_5470551,ivanhoe,https://news.ycombinator.com/item?id=5470551,SKIP,,,wedge_mismatch,,
+hn_952055,rpdillon,https://news.ycombinator.com/item?id=952055,SKIP,,,wedge_mismatch,,

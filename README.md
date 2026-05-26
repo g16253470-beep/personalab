@@ -1,5 +1,11 @@
 # personalab
 
+> 🪦 **Sunset 2026-05-26.** This repo is archived (read-only). The framework code works (6/6 smoke tests pass) but the project as a product direction has been retired after 9 days. Full post-mortem in [RETROSPECTIVE_SUNSET.md](RETROSPECTIVE_SUNSET.md) — niche choice, launch timing, manual-MVP psychology, and what the author is taking away.
+>
+> If you want to fork the LLM-persona framework for your own product, go ahead — MIT licensed, just don't call it `personalab`.
+
+---
+
 > LLM-driven user testing framework. Pit 12 simulated personas against your product before real users do.
 
 ## What it does
